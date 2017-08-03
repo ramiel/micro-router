@@ -12,8 +12,10 @@
   "repository": "git@github.com:pedronauck/micro-router.git",
   "author": "Pedro Nauck <pedronauck@gmail.com>",
   "license": "MIT",
+  "peerDependencies": {
+    "micro": ">7.3.3"
+  },
   "dependencies": {
-    "micro": "^7.3.3",
     "url-pattern": "^1.0.3"
   },
   "devDependencies": {
