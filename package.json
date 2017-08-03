@@ -2,7 +2,7 @@
   "name": "microrouter",
   "description": "🚉 A tiny and functional router for Zeit's Micro",
   "version": "2.2.1",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "jsnext:main": "lib/index.js",
   "scripts": {
     "build": "rm -rf dist/* && babel lib --ignore *.test.js --out-dir dist --copy-files",
@@ -16,6 +16,7 @@
     "micro": ">7.3.3"
   },
   "dependencies": {
+    "micro": "^8.0.1",
     "url-pattern": "^1.0.3"
   },
   "devDependencies": {
